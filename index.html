@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anam Tech Academy — Learn. Build. Grow. | Muzaffargarh, Pakistan</title>
+<meta name="description" content="Anam Tech Academy in Muzaffargarh, Pakistan offers practical, career-focused training in Web Development, AI &amp; Agentic AI, Data Analytics, Cybersecurity, Freelancing and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= ANNOUNCEMENT BAR ================= -->
+<div class="ticker-bar" role="region" aria-label="Announcements">
+  <div class="ticker-track">
+    <span class="ticker-item">🎓 Admissions Open 2026 — New AI &amp; Agentic AI Courses — Limited Seats Available</span>
+    <a href="#admission-form" class="ticker-apply">Apply Now</a>
+    <span class="ticker-item">🎓 Admissions Open 2026 — New AI &amp; Agentic AI Courses — Limited Seats Available</span>
+    <a href="#admission-form" class="ticker-apply">Apply Now</a>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 3L30 30H24.5L17 14L9.5 30H4L17 3Z" fill="url(#markGrad)"/>
+          <defs>
+            <linearGradient id="markGrad" x1="4" y1="3" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#2563EB"/>
+              <stop offset="1" stop-color="#7C3AED"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="brand-text">ANAM <strong>TECH ACADEMY</strong></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#admission-form" class="nav-link">Admission</a>
+      <a href="#fee-calculator" class="nav-link">Fees</a>
+      <a href="#scholarship" class="nav-link">Scholarship</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a href="#admission-form" class="btn btn-primary btn-nav">Apply Now</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="images/academy-hero.jpg" alt="Students walking toward the Anam Tech Academy building, with digital screens showing Agentic AI, Web Development, Data Analytics, Cybersecurity and Automation" class="hero-img">
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <span class="badge reveal" data-reveal>CAREER-FOCUSED TECHNOLOGY ACADEMY</span>
+      <h1 class="hero-title reveal" data-reveal>Learn Skills.<br>Build Your Future.</h1>
+      <p class="hero-text reveal" data-reveal>Master modern technology through practical learning in AI, Agentic AI, Web Development, Automation, Data Analytics and Digital Skills.</p>
+      <div class="hero-actions reveal" data-reveal>
+        <a href="#courses" class="btn btn-primary">Explore Courses</a>
+        <a href="#admission-form" class="btn btn-outline-light">Apply Now</a>
+      </div>
+
+      <div class="hero-trust reveal" data-reveal>
+        <div class="trust-item"><strong>60+</strong><span>Students</span></div>
+        <div class="trust-item"><strong>8+</strong><span>Skill Areas</span></div>
+        <div class="trust-item"><strong>100%</strong><span>Practical Focus</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="float-card fc-1" aria-hidden="true">🤖 Agentic AI</div>
+  <div class="float-card fc-2" aria-hidden="true">⚙️ Automation</div>
+  <div class="float-card fc-3" aria-hidden="true">💻 Web Development</div>
+  <div class="float-card fc-4" aria-hidden="true">📊 Data Analytics</div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats-section" id="stats">
+  <div class="container stats-grid">
+    <div class="stat-card">
+      <span class="stat-number" data-target="60" data-suffix="+">0</span>
+      <span class="stat-label">Students Taught</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number" data-target="10" data-suffix="+">0</span>
+      <span class="stat-label">Projects Completed</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number" data-target="8" data-suffix="+">0</span>
+      <span class="stat-label">Skill Areas</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number" data-target="100" data-suffix="%">0</span>
+      <span class="stat-label">Practical Focus</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about-section" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal-scroll">
+      <div class="about-card-visual">
+        <div class="orbit-dot od-1"></div>
+        <div class="orbit-dot od-2"></div>
+        <div class="orbit-dot od-3"></div>
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <path d="M8 12h8M8 8h5M8 16h4"/>
+        </svg>
+      </div>
+    </div>
+    <div class="about-content reveal-scroll">
+      <h2>Learn Today. Lead Tomorrow.</h2>
+      <p>Anam Tech Academy focuses on practical technology skills and career-oriented learning, helping students in Muzaffargarh and beyond build real, usable ability — not just certificates.</p>
+      <ul class="feature-list">
+        <li><span class="feature-icon">🛠️</span><div><strong>Practical Projects</strong><p>Build real work you can show, not just theory you memorize.</p></div></li>
+        <li><span class="feature-icon">🎯</span><div><strong>Industry-Relevant Skills</strong><p>Curriculum shaped around what employers and clients actually need.</p></div></li>
+        <li><span class="feature-icon">🧭</span><div><strong>Mentor Guidance</strong><p>Direct support from instructors who work in the field.</p></div></li>
+        <li><span class="feature-icon">🚀</span><div><strong>Career-Focused Learning</strong><p>Every course maps to a job, freelance skill, or income path.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COURSES ================= -->
+<section class="courses-section" id="courses">
+  <div class="container">
+    <div class="section-head">
+      <h2>Explore Our Courses</h2>
+      <p>Pick a path, check the details, and apply in minutes.</p>
+    </div>
+
+    <div class="course-controls">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="courseSearch" placeholder="Search courses..." aria-label="Search courses">
+      </div>
+      <div class="filter-pills" id="filterPills" role="group" aria-label="Filter courses by category">
+        <button class="pill active" data-filter="all">All</button>
+        <button class="pill" data-filter="technology">Technology</button>
+        <button class="pill" data-filter="design">Design</button>
+        <button class="pill" data-filter="ai">AI</button>
+        <button class="pill" data-filter="business">Business</button>
+      </div>
+    </div>
+
+    <div class="course-grid" id="courseGrid">
+
+      <div class="course-card" data-category="technology" data-name="web development">
+        <div class="course-icon">💻</div>
+        <h3>Web Development</h3>
+        <p class="course-desc">HTML, CSS, JavaScript and real project-based front-end training.</p>
+        <div class="course-meta"><span>Level: Beginner–Intermediate</span><span>Duration: 3 Months</span></div>
+        <div class="course-fee">Rs. 5,000<span>/month</span></div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Web Development">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="design" data-name="graphic design">
+        <div class="course-icon">🎨</div>
+        <h3>Graphic Design</h3>
+        <p class="course-desc">Canva &amp; design fundamentals for social media, branding and print.</p>
+        <div class="course-meta"><span>Level: Beginner</span><span>Duration: 2 Months</span></div>
+        <div class="course-fee">Rs. 4,000<span>/month</span></div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Graphic Design">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="ai" data-name="ai emerging technology">
+        <div class="course-icon">🤖</div>
+        <h3>AI &amp; Emerging Technology</h3>
+        <p class="course-desc">Core AI concepts, practical tools, and hands-on applied projects.</p>
+        <div class="course-meta"><span>Level: Intermediate</span><span>Duration: 3 Months</span></div>
+        <div class="course-fee">Rs. 7,000<span>/month</span></div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="AI & Emerging Technology">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="business" data-name="freelancing">
+        <div class="course-icon">💼</div>
+        <h3>Freelancing</h3>
+        <p class="course-desc">Build a client-ready profile and learn to earn from global platforms.</p>
+        <div class="course-meta"><span>Level: Beginner</span><span>Duration: 6 Weeks</span></div>
+        <div class="course-fee">Rs. 3,500<span>/month</span></div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Freelancing">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="ai technology" data-name="agentic ai automation">
+        <div class="course-icon">🧠</div>
+        <h3>Agentic AI &amp; Automation</h3>
+        <p class="course-desc">Design AI agents and automated workflows for real-world tasks.</p>
+        <div class="course-meta"><span>Level: Advanced</span><span>Duration: 3 Months</span></div>
+        <div class="course-fee">Contact for Fee</div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Agentic AI & Automation">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="technology" data-name="data analytics">
+        <div class="course-icon">📊</div>
+        <h3>Data Analytics</h3>
+        <p class="course-desc">Turn raw data into decisions using practical analysis tools.</p>
+        <div class="course-meta"><span>Level: Intermediate</span><span>Duration: 2 Months</span></div>
+        <div class="course-fee">Contact for Fee</div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Data Analytics">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="technology" data-name="cybersecurity">
+        <div class="course-icon">🛡️</div>
+        <h3>Cybersecurity</h3>
+        <p class="course-desc">Foundational security practices to protect systems and data.</p>
+        <div class="course-meta"><span>Level: Intermediate</span><span>Duration: 2 Months</span></div>
+        <div class="course-fee">Contact for Fee</div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Cybersecurity">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+      <div class="course-card" data-category="business design" data-name="digital marketing">
+        <div class="course-icon">📣</div>
+        <h3>Digital Marketing</h3>
+        <p class="course-desc">Social media, content and campaign basics that drive results.</p>
+        <div class="course-meta"><span>Level: Beginner</span><span>Duration: 6 Weeks</span></div>
+        <div class="course-fee">Contact for Fee</div>
+        <div class="course-actions">
+          <button class="btn btn-ghost-sm" type="button" data-course-details="Digital Marketing">Learn More</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="no-results" id="noResults" hidden>No courses match your search. Try a different keyword or filter.</p>
+  </div>
+</section>
+
+<!-- ================= ELIGIBILITY CHECKER ================= -->
+<section class="tool-section" id="eligibility">
+  <div class="container">
+    <div class="section-head">
+      <h2>Admission Eligibility Checker</h2>
+      <p>Enter your details to see your admission status instantly.</p>
+    </div>
+
+    <div class="tool-card">
+      <form id="eligibilityForm" class="tool-form" novalidate>
+        <div class="form-row">
+          <label for="elgName">Student Name</label>
+          <input type="text" id="elgName" name="elgName" required>
+          <span class="error-msg" id="elgNameError"></span>
+        </div>
+        <div class="form-row">
+          <label for="elgMarks">Marks (%)</label>
+          <input type="number" id="elgMarks" name="elgMarks" min="0" max="100" required>
+          <span class="error-msg" id="elgMarksError"></span>
+        </div>
+        <div class="form-row">
+          <label for="elgCourse">Select Course</label>
+          <select id="elgCourse" name="elgCourse" required>
+            <option value="">Choose a course</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>AI &amp; Emerging Technology</option>
+            <option>Freelancing</option>
+            <option>Agentic AI &amp; Automation</option>
+            <option>Data Analytics</option>
+            <option>Cybersecurity</option>
+            <option>Digital Marketing</option>
+          </select>
+          <span class="error-msg" id="elgCourseError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Check Eligibility</button>
+      </form>
+
+      <div class="result-card" id="eligibilityResult" hidden>
+        <div class="result-row"><span>Student Name</span><strong id="resName"></strong></div>
+        <div class="result-row"><span>Marks</span><strong id="resMarks"></strong></div>
+        <div class="result-row"><span>Selected Course</span><strong id="resCourse"></strong></div>
+        <div class="result-status" id="resStatus"></div>
+        <div class="result-actions">
+          <button type="button" class="btn btn-ghost-sm" id="printResultBtn">Print Result</button>
+          <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ADMISSION FORM ================= -->
+<section class="tool-section alt-bg" id="admission-form">
+  <div class="container">
+    <div class="section-head">
+      <h2>Admission Application</h2>
+      <p>This is a frontend demonstration form — no data is sent to a server.</p>
+    </div>
+
+    <div class="tool-card wide">
+      <form id="admissionForm" class="tool-form grid-form" novalidate>
+        <div class="form-row">
+          <label for="admFullName">Full Name</label>
+          <input type="text" id="admFullName" required>
+          <span class="error-msg" id="admFullNameError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admGuardian">Father / Guardian Name</label>
+          <input type="text" id="admGuardian" required>
+          <span class="error-msg" id="admGuardianError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admEmail">Email</label>
+          <input type="email" id="admEmail" required>
+          <span class="error-msg" id="admEmailError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admPhone">Phone</label>
+          <input type="tel" id="admPhone" required>
+          <span class="error-msg" id="admPhoneError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admAge">Age</label>
+          <input type="number" id="admAge" min="10" max="80" required>
+          <span class="error-msg" id="admAgeError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admCity">City</label>
+          <input type="text" id="admCity" required>
+          <span class="error-msg" id="admCityError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admEducation">Education Level</label>
+          <select id="admEducation" required>
+            <option value="">Select level</option>
+            <option>Matric</option>
+            <option>Intermediate</option>
+            <option>Bachelor's</option>
+            <option>Master's</option>
+            <option>Other</option>
+          </select>
+          <span class="error-msg" id="admEducationError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admCourse">Select Course</label>
+          <select id="admCourse" required>
+            <option value="">Choose a course</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>AI &amp; Emerging Technology</option>
+            <option>Freelancing</option>
+            <option>Agentic AI &amp; Automation</option>
+            <option>Data Analytics</option>
+            <option>Cybersecurity</option>
+            <option>Digital Marketing</option>
+          </select>
+          <span class="error-msg" id="admCourseError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admMarks">Marks / Percentage</label>
+          <input type="number" id="admMarks" min="0" max="100" required>
+          <span class="error-msg" id="admMarksError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admMode">Learning Mode</label>
+          <select id="admMode" required>
+            <option value="">Select mode</option>
+            <option>Online</option>
+            <option>On-campus</option>
+            <option>Hybrid</option>
+          </select>
+          <span class="error-msg" id="admModeError"></span>
+        </div>
+        <div class="form-row">
+          <label for="admExperience">Previous Experience</label>
+          <input type="text" id="admExperience" placeholder="e.g. None, or brief detail">
+        </div>
+        <div class="form-row full-span">
+          <label for="admWhy">Why do you want to join?</label>
+          <textarea id="admWhy" rows="3" required></textarea>
+          <span class="error-msg" id="admWhyError"></span>
+        </div>
+        <div class="form-row full-span checkbox-row">
+          <label class="checkbox-label">
+            <input type="checkbox" id="admTerms" required>
+            I agree to the Terms &amp; Conditions
+          </label>
+          <span class="error-msg" id="admTermsError"></span>
+        </div>
+        <div class="form-row full-span">
+          <button type="submit" class="btn btn-primary full-width">Submit Application</button>
+        </div>
+      </form>
+
+      <div class="result-card success-card" id="admissionResult" hidden>
+        <div class="success-icon">✓</div>
+        <h3>Application Submitted Successfully</h3>
+        <div class="result-row"><span>Student Name</span><strong id="admResName"></strong></div>
+        <div class="result-row"><span>Selected Course</span><strong id="admResCourse"></strong></div>
+        <div class="result-row"><span>Application Status</span><strong>Received — Pending Review</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEE CALCULATOR ================= -->
+<section class="tool-section" id="fee-calculator">
+  <div class="container">
+    <div class="section-head">
+      <h2>Fee Calculator</h2>
+      <p>Estimate your total fee with the multi-month discount applied.</p>
+    </div>
+
+    <div class="tool-card">
+      <form id="feeForm" class="tool-form" novalidate>
+        <div class="form-row">
+          <label for="feeCourse">Select Course</label>
+          <select id="feeCourse" required>
+            <option value="5000">Web Development — Rs. 5,000/month</option>
+            <option value="4000">Graphic Design — Rs. 4,000/month</option>
+            <option value="7000">AI &amp; Emerging Technology — Rs. 7,000/month</option>
+            <option value="3500">Freelancing — Rs. 3,500/month</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="feeMonths">Number of Months</label>
+          <input type="number" id="feeMonths" min="1" max="24" value="3" required>
+          <span class="error-msg" id="feeMonthsError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Calculate Fee</button>
+      </form>
+
+      <div class="result-card" id="feeResult" hidden>
+        <div class="result-row"><span>Monthly Fee</span><strong id="feeMonthly"></strong></div>
+        <div class="result-row"><span>Number of Months</span><strong id="feeMonthsOut"></strong></div>
+        <div class="result-row"><span>Original Fee</span><strong id="feeOriginal"></strong></div>
+        <div class="result-row"><span>Discount</span><strong id="feeDiscountPct"></strong></div>
+        <div class="result-row"><span>Discount Amount</span><strong id="feeDiscountAmt"></strong></div>
+        <div class="result-row final-row"><span>Final Fee</span><strong id="feeFinal"></strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCHOLARSHIP CHECKER ================= -->
+<section class="tool-section alt-bg" id="scholarship">
+  <div class="container">
+    <div class="section-head">
+      <h2>Scholarship Checker</h2>
+      <p>See whether you may qualify for a merit or need-based scholarship review.</p>
+    </div>
+
+    <div class="tool-card">
+      <form id="scholarshipForm" class="tool-form" novalidate>
+        <div class="form-row">
+          <label for="schMarks">Marks (%)</label>
+          <input type="number" id="schMarks" min="0" max="100" required>
+          <span class="error-msg" id="schMarksError"></span>
+        </div>
+        <div class="form-row">
+          <label for="schIncome">Monthly Family Income (Rs.)</label>
+          <input type="number" id="schIncome" min="0" required>
+          <span class="error-msg" id="schIncomeError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Check Scholarship</button>
+      </form>
+
+      <div class="result-card" id="scholarshipResult" hidden>
+        <div class="result-status" id="schStatus"></div>
+        <p class="fine-print">Final scholarship approval is subject to academy verification.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COURSE RECOMMENDATION ================= -->
+<section class="tool-section" id="recommend">
+  <div class="container">
+    <div class="section-head">
+      <h2>Not Sure Which Course to Choose?</h2>
+      <p>Tell us what interests you and we'll recommend a course.</p>
+    </div>
+
+    <div class="tool-card">
+      <form id="recommendForm" class="tool-form" novalidate>
+        <div class="form-row">
+          <label for="interestSelect">What are you interested in?</label>
+          <select id="interestSelect" required>
+            <option value="">Choose an interest</option>
+            <option value="Coding">Coding</option>
+            <option value="Design">Design</option>
+            <option value="AI">AI</option>
+            <option value="Online Earning">Online Earning</option>
+            <option value="Data">Data</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Get Recommendation</button>
+      </form>
+
+      <div class="result-card" id="recommendResult" hidden>
+        <div class="result-row"><span>Your Interest</span><strong id="recInterest"></strong></div>
+        <div class="result-row final-row"><span>Recommended Course</span><strong id="recCourse"></strong></div>
+        <a href="#admission-form" class="btn btn-primary-sm">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Why Choose Us</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon">🛠️</div><h3>Practical Learning</h3><p>Hands-on projects from day one, not just lectures.</p></div>
+      <div class="why-card"><div class="why-icon">🧭</div><h3>Expert Guidance</h3><p>Learn directly from instructors working in the industry.</p></div>
+      <div class="why-card"><div class="why-icon">📈</div><h3>Career-Focused Training</h3><p>Every course is built around a real job or income outcome.</p></div>
+      <div class="why-card"><div class="why-icon">🤝</div><h3>Supportive Environment</h3><p>A welcoming space for every student to learn at their pace.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="steps-section">
+  <div class="container">
+    <div class="section-head">
+      <h2>How It Works</h2>
+    </div>
+    <div class="steps-track">
+      <div class="step"><span class="step-num">01</span><h3>Choose Your Course</h3></div>
+      <div class="step"><span class="step-num">02</span><h3>Check Eligibility</h3></div>
+      <div class="step"><span class="step-num">03</span><h3>Calculate Your Fee</h3></div>
+      <div class="step"><span class="step-num">04</span><h3>Apply Online</h3></div>
+      <div class="step"><span class="step-num">05</span><h3>Start Learning</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AGENTIC AI FEATURE ================= -->
+<section class="agentic-section">
+  <div class="container">
+    <div class="section-head light">
+      <h2>Learn The Technology Of Tomorrow</h2>
+      <p>Agentic AI means software that can understand a goal, plan its own steps, use tools, take action, and check its own results — with far less manual instruction than traditional programs.</p>
+    </div>
+
+    <div class="agentic-flow">
+      <div class="flow-node">Understand Goal</div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-node">Plan</div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-node">Use Tools</div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-node">Take Action</div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-node">Evaluate Result</div>
+    </div>
+
+    <div class="tech-tags">
+      <span>Agentic AI</span>
+      <span>Artificial Intelligence</span>
+      <span>Automation</span>
+      <span>Cloud Computing</span>
+      <span>Data Analytics</span>
+      <span>Cybersecurity</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEARNING HIGHLIGHTS ================= -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Learning Highlights</h2>
+      <p>What every course at Anam Tech Academy is built around.</p>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card highlight-card">
+        <div class="highlight-icon">🛠️</div>
+        <h3>Practical Learning</h3>
+        <p>Every topic is taught through doing, not just theory on a slide.</p>
+      </div>
+      <div class="testimonial-card highlight-card">
+        <div class="highlight-icon">📁</div>
+        <h3>Project-Based Practice</h3>
+        <p>Students work through real, structured projects in every course.</p>
+      </div>
+      <div class="testimonial-card highlight-card">
+        <div class="highlight-icon">💻</div>
+        <h3>Hands-On Digital Skills</h3>
+        <p>Tools and workflows practiced directly, the way they're used in real work.</p>
+      </div>
+      <div class="testimonial-card highlight-card">
+        <div class="highlight-icon">🎯</div>
+        <h3>Career-Focused Learning</h3>
+        <p>Course content stays tied to outcomes students can use afterward.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">What courses are available?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>We offer Web Development, Graphic Design, AI &amp; Emerging Technology, Freelancing, Agentic AI &amp; Automation, Data Analytics, Cybersecurity and Digital Marketing.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">How does the eligibility checker work?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Enter your name, marks and course. 70%+ gets direct admission, 50–69% is eligible with counselling recommended, and below 50% is referred to an admission counsellor.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">How is the fee calculated?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Fee is the monthly rate multiplied by the number of months, with a discount of 0% for 1–2 months, 5% for 3–5 months, and 10% for 6 or more months.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Do you offer scholarships?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Yes. Use the Scholarship Checker to see if you may qualify for a merit or need-based review, subject to academy verification.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Can I apply online?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Yes, the full Admission Application form on this site can be completed online.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Which learning modes are available?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Online, On-campus and Hybrid modes are available for most courses.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Do I need previous experience?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>No. Most courses are designed for beginners, though some advanced courses recommend prior basic knowledge.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">How can I contact the academy?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer"><p>Use the contact form below, email us, call, or message on WhatsApp — details are in the Contact section.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact-section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2>Get In Touch</h2>
+      <p class="demo-note">Demo contact details for this student project.</p>
+      <ul class="contact-list">
+        <li><strong>Anam Tech Academy</strong><br>Muzaffargarh, Pakistan</li>
+        <li>📧 info@example.com</li>
+        <li>📞 +92 300 0000000</li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="cName">Name</label>
+        <input type="text" id="cName" required>
+        <span class="error-msg" id="cNameError"></span>
+      </div>
+      <div class="form-row">
+        <label for="cEmail">Email</label>
+        <input type="email" id="cEmail" required>
+        <span class="error-msg" id="cEmailError"></span>
+      </div>
+      <div class="form-row">
+        <label for="cSubject">Subject</label>
+        <input type="text" id="cSubject" required>
+        <span class="error-msg" id="cSubjectError"></span>
+      </div>
+      <div class="form-row">
+        <label for="cMessage">Message</label>
+        <textarea id="cMessage" rows="4" required></textarea>
+        <span class="error-msg" id="cMessageError"></span>
+      </div>
+      <button type="submit" class="btn btn-primary full-width">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="brand footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 3L30 30H24.5L17 14L9.5 30H4L17 3Z" fill="url(#markGrad2)"/>
+            <defs><linearGradient id="markGrad2" x1="4" y1="3" x2="30" y2="30" gradientUnits="userSpaceOnUse"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
+          </svg>
+        </span>
+        <span class="brand-text light">ANAM <strong>TECH ACADEMY</strong></span>
+      </div>
+      <p class="footer-tagline">Practical skills. Real learning. Better opportunities.</p>
+      <p class="footer-location">Muzaffargarh, Pakistan</p>
+      <div class="social-icons">
+        <a href="#" aria-label="WhatsApp">WA</a>
+        <a href="https://www.facebook.com/anamtechstudio?mibextid=ZbWKwL" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="https://www.linkedin.com/in/anam-majid-9b41b4360?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#admission-form">Admission</a>
+      <a href="#fee-calculator">Fees</a>
+      <a href="#scholarship">Scholarship</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact &amp; Connect</h4>
+      <p>Muzaffargarh, Pakistan</p>
+      <p>+92 300 0000000</p>
+      <p>info@example.com</p>
+      <div class="footer-social-text">
+        <a href="https://wa.me/923000000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.facebook.com/anamtechstudio?mibextid=ZbWKwL" target="_blank" rel="noopener">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="https://www.linkedin.com/in/anam-majid-9b41b4360?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Anam Tech Academy. All Rights Reserved. Built with HTML, CSS &amp; JavaScript</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= FLOATING ELEMENTS ================= -->
+<a href="https://wa.me/923000000000" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp (demo number)">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.48 1.34 5L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.18c-.24.68-1.4 1.32-1.93 1.4-.49.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.55-1.16-2.96 0-1.4.73-2.09 1-2.38.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.8 2 .87 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.52 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.61-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.55.73 1.81.86.26.14.44.2.5.31.06.12.06.68-.18 1.36z"/></svg>
+</a>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Back to top" hidden>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="course-modal" id="courseModal" hidden>
+  <div class="course-modal-inner">
+    <button class="course-modal-close" id="courseModalClose" type="button" aria-label="Close">&times;</button>
+    <h3 id="courseModalTitle"></h3>
+    <p id="courseModalBody"></p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
