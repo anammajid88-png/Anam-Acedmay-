@@ -772,10 +772,11 @@ input,select,textarea{font-family:inherit;font-size:0.95rem;}
   border-radius:50%;
   border:1px solid rgba(255,255,255,0.25);
   display:flex;align-items:center;justify-content:center;
-  font-size:0.7rem;font-weight:700;
-  transition:background .2s ease;
+  color:#fff;
+  transition:background .2s ease,transform .2s ease;
 }
-.social-icons a:hover{background:rgba(255,255,255,0.15);}
+.social-icons a svg{display:block;}
+.social-icons a:hover{background:rgba(255,255,255,0.15);transform:translateY(-2px);}
 .footer-col h4{color:#fff;font-size:0.95rem;margin-bottom:18px;}
 .footer-col a,.footer-col p{
   display:block;
